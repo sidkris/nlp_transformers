@@ -21,4 +21,5 @@ class TextClassifier:
 
 
 if __name__ == "__main__":
+    
     TextClassifier.test()
