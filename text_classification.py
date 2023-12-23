@@ -17,7 +17,7 @@ class TextClassifier:
 
         output = classifier(sample_text)
 
-        print(pd.DataFrame(output))
+        print("The statement is {} with a {}% certainty".format(output[0]['label'], int(output[0]['score'] * 100)))
 
 
 if __name__ == "__main__":
